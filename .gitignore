@@ -1,3 +1,34 @@
-
+#Images
+sch_image.bmp
+sch_image.png
+sch_image/3d_2.png
+sch_image/PCBs.odt
+sch_image/bottom2.png
+sch_image/bottom_layout.png
+sch_image/bottom_render.png
+sch_image/pcb_b.bmp
+sch_image/pcb_b.png
+sch_image/pcb_b2.bmp
+sch_image/pcb_t.bmp
+sch_image/pcb_t.png
+sch_image/pcb_t2.bmp
+sch_image/top2.png
+sch_image/top3.png
+sch_image/top_layout.png
+sch_image/top_render.png
+ESC_2Layer.png
+#Misc files
+step/
+.tmp.drivedownload/
+bom/
 *.zip
+rescue-backup/
+#Temporary files
+*.bak
+*.0000
+*.bck
+*.kicad_pcb-bak
+*~
+#Exported BOM files
+*.xml
 *.csv
