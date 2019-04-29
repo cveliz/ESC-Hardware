@@ -16,6 +16,7 @@ images/top2.png
 images/top3.png
 images/top_layout.png
 images/top_render.png
+images/ESC_Schematic.jpg
 ESC_2Layer.png
 #Misc files
 step/
@@ -32,3 +33,5 @@ rescue-backup/
 #Exported BOM files
 *.xml
 *.csv
+#readme preview
+*.html
