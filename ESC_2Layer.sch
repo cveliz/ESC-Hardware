@@ -1412,7 +1412,6 @@ Wire Wire Line
 NoConn ~ 10475 2150
 NoConn ~ 10475 2250
 NoConn ~ 10475 2350
-NoConn ~ 10475 2450
 NoConn ~ 10475 2550
 NoConn ~ 10475 2950
 NoConn ~ 10475 3050
@@ -1420,9 +1419,6 @@ NoConn ~ 10475 3350
 NoConn ~ 6275 2450
 NoConn ~ 6275 2550
 NoConn ~ 6275 3050
-NoConn ~ 6275 3150
-NoConn ~ 6275 3250
-NoConn ~ 6275 3350
 $Comp
 L device:R_Small R17
 U 1 1 5B0912EB
@@ -7912,4 +7908,20 @@ Wire Wire Line
 	925  7000 925  7250
 Wire Wire Line
 	925  7250 1525 7250
+Wire Wire Line
+	10475 2450 10825 2450
+Text Label 10825 2450 2    50   ~ 0
+PWM_IN
+Wire Wire Line
+	6275 3250 5825 3250
+Wire Wire Line
+	6275 3350 5825 3350
+Text Label 5825 3250 0    50   ~ 0
+UART1_TX
+Text Label 5825 3350 0    50   ~ 0
+UART1_RX
+Wire Wire Line
+	6275 3150 5825 3150
+Text Label 5825 3150 0    50   ~ 0
+DBG_PIN
 $EndSCHEMATC
